@@ -1,0 +1,62 @@
+/* src/css/AsesorPage.css */
+.asesor-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #e8f0fe;
+  padding: 2rem;
+  text-align: center;
+}
+
+.asesor-page h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.asesor-dashboard {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.asesor-dashboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.asesor-dashboard li {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.asesor-dashboard li strong {
+  color: #4a90e2;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.asesor-dashboard li p {
+  margin: 0.5rem 0;
+}
+
+.asesor-dashboard li .cita-details {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+  margin-bottom: 1rem;
+}
+
+.asesor-dashboard li .cita-details strong {
+  color: #4a90e2;
+}
+
+.asesor-dashboard li .cita-details p {
+  margin: 0.5rem 0;
+}

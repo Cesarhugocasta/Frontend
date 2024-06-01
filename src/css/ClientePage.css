@@ -1,0 +1,75 @@
+/* src/css/ClientePage.css */
+.client-page {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #faf3f3;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .client-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  form div {
+    margin-bottom: 1.5rem;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input:focus,
+  form select:focus,
+  form textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  form button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button:hover {
+    background-color: #357ab7;
+  }
+  
+  form p {
+    color: #4a90e2;
+    font-weight: bold;
+  }
+  

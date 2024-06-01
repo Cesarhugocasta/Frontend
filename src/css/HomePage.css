@@ -1,0 +1,90 @@
+/* src/css/HomePage.css */
+.homepage {
+    font-family: 'Playfair Display', serif;
+    background-color: #f7f9fc;
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .header {
+    background-color: #e3f2fd;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .description {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .fashion-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto 2rem;
+  }
+  
+  .services {
+    background-color: #e3f2fd;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services li {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: #e3f2fd;
+    padding: 2rem;
+  }
+  
+  .footer a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer a:hover {
+    color: #357ab7;
+  }
+  
